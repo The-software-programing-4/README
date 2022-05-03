@@ -11,6 +11,7 @@
   - api/user/logout
   - api/user/message_get
   - api/user/message_set
+  - api/user/password_set
   - api/user/register_e
   - api/user/register_p
 - api/book/
