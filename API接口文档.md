@@ -4,21 +4,37 @@
 
 - api/admin/
 - api/user/
-  - api/user/login
-  - api/user/login/vercode_p
-  - api/user/login/vercode_e
-  - api/user/login/phone
-  - api/user/logout
-  - api/user/message_get
-  - api/user/message_set
-  - api/user/password_set
-  - api/user/register_e
-  - api/user/register_p
+  - login/email 邮箱登陆
+  - login/phone 手机登陆	
+  - login/vercode_p 发送手机验证码
+  - login/vercode_e 发送邮箱验证码
+  - login/phone     手机+密码登陆
+  - logout    登出
+  - message_get  获取用户个人信息
+  - message_set 设置用户个人信息
+  - password_set 修改密码
+  - register_e 邮箱注册
+  - register_p 手机号注册
 - api/book/
-  - api/book/message_get
-  - api/book/message_set
-
+  - message_get 获取某个图书全部信息
+  - message_set 设置图书全部信息
+  - listBook 列出评分最高的几个图书信息
+  - insertImg 插入图书图片（先不用）
+  - uploadImg 上传图书图片
+  - getImg 查询图书图片
 - api/movie/
+  - message_set
+  - message_get
+  - listmovie 
+  - moviesearch 根据关键词查找电影
+  - imgupload 图片
+  - getimg 图片
+
+- api/mark/
+  - addmark 添加评论
+  - getmark 返回评论
+  - thumb 点赞
+
 - api/group/
 - api/topic/
 - api/search/
